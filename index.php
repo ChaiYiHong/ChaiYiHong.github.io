@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Image/Logo.png">
+    <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
+    <script src="javascript/script.js"></script>
+</head>
+<body id="preload">
+    <section class="side-navbar">
+        <div class="logo-container">
+            <a href="#main">
+                <img class="logo" src="Image/Logo.svg" alt="YH">
+                <span>Chai Yi Hong</span>
+            </a>
+            <span>Cyber Security Specialist</span>
+        </div>
+        <nav class="navbar">
+            <a class="nav1" rel="about" href="#about">About</a>
+            <a class="nav2" rel="skills" href="#experiences">Experiences</a>
+            <a class="nav3" rel="projects" href="#projects">Projects</a>
+            <a class="nav4" rel="contact" href="#contact">Contact</a>
+        </nav>
+        <div class="contact-icon-container">
+            <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/chaiyihong/" target="_blank"> <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="linkedin-icon"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" class=""></path></svg> </a>
+                <a href="https://www.facebook.com/SiVElvis/" target="_blank"> <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="facebook-icon"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg></a>
+                <a href="https://github.com/ElvisYiHong" target="_blank"><svg class="github-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.44 234.07"><path fill="currentColor" d="M375.6,477.3a107.46,107.46,0,0,0,17.77-4.69,69.09,69.09,0,0,0,23.13-13.55,51.17,51.17,0,0,0,16.23-28.95,67.08,67.08,0,0,0,.75-18.39,61.41,61.41,0,0,0-6.5-23.31A50.92,50.92,0,0,0,418.91,377a.89.89,0,0,1-.16-1.24,26.3,26.3,0,0,0,2.67-9.23,41.88,41.88,0,0,0,.19-10.13,30.47,30.47,0,0,0-5.16-14.77,1.39,1.39,0,0,0-1.34-.69c-13.47.47-24.78,5.77-34.2,15.27a1.16,1.16,0,0,1-1.47.33,71.49,71.49,0,0,0-13.8-3.06,112.59,112.59,0,0,0-19-.88c-8.63.28-17.14,1.36-25.33,4.3a.78.78,0,0,1-1-.3A50.21,50.21,0,0,0,299,343.11a47.61,47.61,0,0,0-13.13-2.17,1.18,1.18,0,0,0-1.12.59A27.67,27.67,0,0,0,280,353.19a38.77,38.77,0,0,0,1.28,18.94,13.77,13.77,0,0,0,1.83,3.9.92.92,0,0,1-.11,1.43,54,54,0,0,0-10.52,15.8,59.48,59.48,0,0,0-4.56,17.18,67.76,67.76,0,0,0-.33,13.28c1.09,13.34,6.18,24.85,15.88,34.2,8,7.71,17.61,12.6,28.08,16a105,105,0,0,0,13.55,3.31c.52.09.62.18.36.68-1.7,3.26-2.13,6.83-2.4,10.42-.12,1.5-.16,3-.17,4.52a.89.89,0,0,1-.7,1,28.52,28.52,0,0,1-6.81,1.5,35.32,35.32,0,0,1-15.1-1.64,26,26,0,0,1-14-11.08A24.37,24.37,0,0,0,269.81,471a11.47,11.47,0,0,0-6,.31c-1.7.59-2,1.64-1,3.11a9.93,9.93,0,0,0,2.73,2.6c4.8,3.12,7.95,7.62,10.6,12.55.89,1.68,1.65,3.41,2.41,5.16A29.41,29.41,0,0,0,290,507.64c6.61,4.27,13.95,5.84,21.75,5.67a63.14,63.14,0,0,0,11.1-1.34c0,.21,0,.39,0,.56,0,5.33,0,10.66,0,16a10.25,10.25,0,0,1-7,9.21,6.72,6.72,0,0,1-4-.14A120.55,120.55,0,0,1,236.9,463a119.91,119.91,0,0,1,18.56-112.38,118.84,118.84,0,0,1,55.6-40.05,120.43,120.43,0,0,1,112.55,18.05,119,119,0,0,1,40,54.44,116.05,116.05,0,0,1,5.79,22.67,120.07,120.07,0,0,1,1.2,24.41,118.22,118.22,0,0,1-18.92,58.69,119.43,119.43,0,0,1-33.12,34.07,121.26,121.26,0,0,1-29.33,14.72,7.65,7.65,0,0,1-8.13-2.54,10.86,10.86,0,0,1-2.81-7.4q0-18.17,0-36.33A38.73,38.73,0,0,0,377.24,481,16.57,16.57,0,0,0,375.6,477.3Z" transform="translate(-230.36 -303.91)"/></svg></a>
+                <a href="https://www.instagram.com/elvis.yihong/" target="_blank"><svg class="insta-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.49 181.93"><path fill="currentColor" d="M402.29,402.16q0,22.79,0,45.57a45.52,45.52,0,0,1-2.49,15.4A44.76,44.76,0,0,1,379,487.65a41.57,41.57,0,0,1-14.71,4.94,62.92,62.92,0,0,1-7.76.5q-43.77,0-87.56,0a45.69,45.69,0,0,1-13.2-1.83,44.56,44.56,0,0,1-31.44-36,56,56,0,0,1-.55-8.48V356.41a44.78,44.78,0,0,1,25.82-41,43.28,43.28,0,0,1,12.88-3.77,46,46,0,0,1,5.63-.4q44.91,0,89.82,0a44.72,44.72,0,0,1,40,25.53,41.94,41.94,0,0,1,4.09,15.08c.12,1.7.21,3.4.21,5.1Q402.31,379.54,402.29,402.16Zm-164.58,0q0,19.29,0,38.58a38.6,38.6,0,0,0,1.65,11.55A37.76,37.76,0,0,0,275.84,479q37.23,0,74.47,0a41.56,41.56,0,0,0,6-.44,35.93,35.93,0,0,0,20-9.65,36.86,36.86,0,0,0,12-27.85q0-38.58,0-77.15c0-1.78-.1-3.57-.27-5.34a34.22,34.22,0,0,0-3.06-11A37.41,37.41,0,0,0,370.56,331a35.56,35.56,0,0,0-18.92-5.62c-25.58-.06-51.15,0-76.73,0a33.94,33.94,0,0,0-10.12,1.5,37.76,37.76,0,0,0-27.09,36.8C237.73,376.5,237.71,389.32,237.71,402.14Z" transform="translate(-223.81 -311.19)"/><path fill="currentColor" d="M313,447.84a45.67,45.67,0,1,1,45.68-45.67A45.69,45.69,0,0,1,313,447.84Zm33.61-44c0-8.42-1.78-14.75-5.52-20.45A33,33,0,0,0,316,367.91a30.47,30.47,0,0,0-10.07.65,32.71,32.71,0,0,0-17.8,10.6,34.2,34.2,0,0,0-8.32,28A32.12,32.12,0,0,0,286,422.5c7.75,10.28,18,15.06,30.92,13.8a31.05,31.05,0,0,0,17.45-7.58C342.48,421.77,346.45,412.84,346.65,403.79Z" transform="translate(-223.81 -311.19)"/><path fill="currentColor" d="M346.64,354.67a13.73,13.73,0,1,1,13.61,13.73A13.71,13.71,0,0,1,346.64,354.67Z" transform="translate(-223.81 -311.19)"/></svg></a>
+            </div>
+            <div class="resume">
+                    <div class="resume-button">
+                        <a href="Resume.pdf" target="_blank">Resume</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-container">
+        <div id="main" class="main">
+            <div class="top-design">
+                <span>&lt;html></span>
+                <span>&lt;body></span>
+            </div>
+            <div class="text-zone">
+                <span>&lt;h1></span>
+                <h1>Hi,</h1>
+                <h1 class="subtitles">I'm Chai Yi Hong</h1>
+                <span>&lt;/h1></span>
+                <span>&lt;/p></span>
+                <h3>Cyber Security Student / Freelancer</h3>
+                <span>&lt;/p></span>
+                <div class="main-contact-button">
+                    <a href="#contact">Contact me !</a>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="about">
+            <div class="text-zone">
+                <span>&lt;h2></span>
+                <h2>My, Myself & I</h2>
+                <span>&lt;/h2></span>
+                <span>&lt;p></span>
+                <p>
+                    Hello! My name is Chai Yi Hong and I'm student from Asia Pacific University majoring in Cyber Security.
+                    I enjoy exploring new technology trends and I have a serious passion for network development and creating
+                    automation script. My interest in networking development started back in 2019 when I decided to build
+                    my own server — Hosting samba server, personal website and SMTP mail server.
+                </p>
+                <p>
+                    I am a well-organised person and a problem solver. My short term goal is preparing myself to be well qualified for
+                    the intern job I look forward to. My long term goal is building a resource blog to
+                    provide information of latest trends and programming tutorial to help people who new to this field.
+                </p>
+                <p>
+                    Here are a few technologies I've been working with recently:
+                </p>
+                <ul class="skill-set">
+                    <li>Javascript</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>Php</li>
+                    <li>C#</li>
+                    <li>Bash</li>
+                </ul>
+                <span>&lt;/p></span>
+            </div>
+            <div class="personal-image">
+                <iframe src="https://www.youtube.com/embed/CY19f_pjdcM" allow="fullscreen;"></iframe>
+            </div>
+        </div>
+        <div id="experiences" class="experiences">
+            <div class="text-zone">
+                <span>&lt;h2></span>
+                <h2>Experiences</h2>
+                <span>&lt;/h2></span>
+                <span>&lt;h4></span>
+                <div class="subsection">
+                    <div>
+                        <h4><span class="number">01. </span>Academic Qualifications</h4>
+                        <h5>BSc (Hons) Cyber Security</h5>
+                        <h6 class="location">@ Asia Pacific University, Bukit Jalil</h6>
+                        <h6 class="date">February 2019 - Present</h6>
+                        <h6><strong style="color: #ccd6f6;">CGPA: </strong>3.96 (First year)</h6>
+                        <h5>Foundation in Computing & Technology</h5>
+                        <h6 class="location">@ Asia Pacific University, Bukit Jalil</h6>
+                        <h6 class="date">April 2019 - January 2020</h6>
+                        <h6><strong style="color: #ccd6f6;">CGPA: </strong>3.84</h6>
+                        <h5>UEC & SPM</h5>
+                        <h6 class="location">@ SM Pei Min, Miri</h6>
+                        <h6 class="date">January 2016 – December 2018</h6>
+                    </div>
+                    <div>
+                        <h4><span class="number">02. </span>Working Experiences</h4>
+                        <h5>Event organizer (Mobile Legend Competition)</h5>
+                        <h6 class="location">@ Asia Pacific University, Bukit Jalil</h6>
+                        <h6 class="date">October 2020</h6>
+                        <h6><strong style="color: #ccd6f6;">Position: </strong>Advertising team</h6>
+                        <h5>Treasurer of APU JCC Club</h5>
+                        <h6 class="location">@ Asia Pacific University, Bukit Jalil</h6>
+                        <h6 class="date">July 2019 – December 2020</h6>
+                        <h6><strong style="color: #ccd6f6;">Jobs: </strong>Responsible for safekeeping the funds of the club</h6>
+                        <h5>Technical Assistant (Part Time)</h5>
+                        <h6 class="location">@ Asia Pacific University, Bukit Jalil</h6>
+                        <h6 class="date">June 2019 – May 2020</h6>
+                        <h6><strong style="color: #ccd6f6;">Jobs: </strong>Help desk, lab rounding and classroom quality check</h6>
+                    </div>
+                </div>
+                <span>&lt;/h4></span>
+            </div>
+        </div>
+        <div id="projects" class="projects">
+            <div class="text-zone">
+                <span>&lt;h2></span>
+                <h2>Projects</h2>
+                <span>&lt;/h2></span>
+                <span>&lt;h4></span>
+                <h4>Some Things I've Built</h4>
+                <div class="projects-container">
+                    <div class="projects-content">
+                        <h4><span class="number">01. </span>APU Gadget Loaning Application (C)</h4>
+                        <p>This is a console GUI program that records the
+                            loaning details of digital pads and wireless microphone.
+                            This system is designed with several functions such as check-out items, check-in items,
+                            searching current and history loaning.
+                        </p>
+                        <div class="button-container">
+                            <div class="button">
+                                <a href="https://github.com/ElvisYiHong/GadgetLoaningConsoleApplication-C" target="_blank">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-image">
+                        <img src="Image/Project%20images/gadgetloaningsystem.png" style="cursor: pointer;" onclick="model(this)" alt="GadgetLoaningApplication">
+                    </div>
+                </div>
+                <div class="projects-container">
+                    <div class="projects-image">
+                        <img src="Image/Project%20images/subnetmaskcalculator.png" style="cursor: pointer;" onclick="model(this)" alt="GadgetLoaningApplication">
+                    </div>
+                    <div class="projects-content">
+                        <h4><span class="number">02. </span>Subnet mask calculator (JavaSwing)</h4>
+                        <p>This is a GUI program that helps to calculate the subnet mask and subnet group range with
+                            the IP address given. This program also comes with few features such as calculating the subnet
+                            mask portion, number of subnet and host for each subnet.
+                        </p>
+                        <div class="button-container-right">
+                            <div class="button">
+                                <a href="https://github.com/ElvisYiHong/SubnetMaskCalculator-JavaSwing" target="_blank">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-container">
+                    <div class="projects-content">
+                        <h4><span class="number">03. </span>Savior event management website (Wix)</h4>
+                        <p>This is a website created with wix. The purpose of building this website is attracting more
+                            potential customers and promote their services. There is also a section for the success stories gallery and
+                            available event packages.
+                        </p>
+                        <div class="button-container">
+                            <div class="button">
+                                <a href="https://elviscyh0425.wixsite.com/savior" target="_blank">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-image">
+                        <img src="Image/Project%20images/Eventmanagement.PNG" style="cursor: pointer;" onclick="model(this)" alt="GadgetLoaningApplication">
+                    </div>
+                </div>
+                <span>&lt;/h4></span>
+                <span>&lt;h2></span>
+
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <div class="text-zone">
+                <span>&lt;h2></span>
+                <h2>Contact</h2>
+                <span>&lt;/h2></span>
+                <span>&lt;p></span>
+                <h4>I’m interested in intern and freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form or contact me directly.</h4>
+                <div class="contact-last">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.5 158.08"><path fill="currentColor" d="M880.91,540.33a78.75,78.75,0,1,1,157.49,0c-.14,43.83-35.23,79.12-78.73,79.19S880.89,584,880.91,540.33Zm37.22-18c0,13.23-.17,24.16.06,35.08.15,6.87,4,10.19,11,10.17q30.54-.08,61.1,0c7,0,10.66-3.48,10.84-10.26.24-9.35-.06-18.71.15-28,.14-6.28-2.27-5.73-6.34-3-9.69,6.52-19.69,12.58-29.16,19.4-4.59,3.3-7.82,3-12.33-.13C942.53,538,931.23,530.92,918.13,522.36Zm5.15-8.34-.81,2.21c10.27,6.75,20.76,13.19,30.71,20.38,5,3.6,8.6,3.43,13.27-.25,5-3.91,10.69-6.84,15.82-10.55,4.82-3.49,10.93-5.52,14.84-11.79Z" transform="translate(-880.91 -461.42)"/></svg>
+                    <h4>elviscyh0425@gmail.com</h4>
+                </div>
+                <div class="contact-last">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.95 158.07"><path fill="currentColor" d="M223,389a79,79,0,0,1,158-.91c.48,43.12-35.09,79.14-78.63,79.61C259.1,468.15,223.18,432.51,223,389Zm44.34-19.78c.34,21.24,30.43,52.66,51.54,53.75,6.93.36,12.43-2.49,15.94-8.41,1.94-3.26,3-8.2-.69-9.94-6.63-3.12-14-8.14-21.47-2.5-4.92,3.7-8.57,2.23-12.51-.88a64.79,64.79,0,0,1-12.91-13.88c-2.87-4.09-3.82-7.14.51-11,7.57-6.7.08-12.72-1.77-18.75-1.06-3.47-4.86-4.79-8.37-2.88C271.94,357.82,266.63,361.44,267.35,369.19Z" transform="translate(-223.01 -309.61)"/></svg>
+                    <h4>+60-138338558</h4>
+                </div>
+                <span>&lt;/p></span>
+                <span>&lt;form></span>
+                <div class="contact-form-container">
+                    <form id="contact-form" autocomplete="off">
+                        <ul>
+                            <li class="half"><input type="text" class="input-field" placeholder="Name" name="name"></li>
+                            <li class="half"><input type="email" class="input-field" placeholder="Email" name="email"></li>
+                            <li><input type="text" class="input-field" placeholder="Subject" name="subject"></li>
+                            <li><textarea placeholder="Message" name="msg" class="input-field" spellcheck="false"></textarea></li>
+                            <li>
+                                <div class="contact-button">
+                                    <a href="#contact" id="submit-btn">Send Message !</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <span>&lt;/form></span>
+            </div>
+            <div class="bottom-design">
+                <span>&lt;html></span>
+                <span>&lt;body></span>
+            </div>
+        </div>
+    </section>
+    <div class="quote-container">
+        <div class="quote">
+            <p>love what you do,</p>
+            <p>do what you love</p>
+        </div>
+    </div>
+    <div id="modal" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" alt="zoomed image" src="#">
+        </div>
+    </div>
+</body>
+</html>
